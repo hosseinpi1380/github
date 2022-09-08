@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrapper{
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: min-content;
+            margin: auto;
+            top: 50%;
+            background-color: lightgreen;
+        }
+        form{
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        input{
+            border: none;
+            width: 150px;
+            margin: 5px;
+            padding: 10px;
+            display: block;
+        }
+        input[type='submit']{
+            width: 170px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="">
+            <input type="text" class="firstname" placeholder="first name">
+            <input type="text" class="lastname" placeholder="last name">
+            <input type="text" class="password" placeholder="password">
+            <input type="submit" value="Register">
+        </form>
+    </div>
+    <script>
+        const $=document;
+        
+    </script>
+</body>
+</html>
