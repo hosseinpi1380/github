@@ -1,0 +1,102 @@
+         @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+         * {
+             margin: 0;
+             padding: 0;
+         }
+
+         body {
+             background-color: #f0f9ff;
+         }
+
+         .container {
+             max-width: 1200px;
+             margin: 0 auto 0 auto;
+             padding: 0 15px;
+         }
+
+         .nav {
+            padding: 30px 0;
+         }
+
+         
+
+         .logo__img {
+            width: 160px;
+         }
+
+         .wrapper {
+             display: flex;
+             align-items: center;
+             justify-content: space-between;
+         }
+
+         .menu {
+             display: flex;
+             align-items: center;
+         }
+
+         .menu__item {
+             list-style-type: none;
+             margin-left: 20px;
+         }
+
+         .menu__link {
+             text-decoration: none;
+             color: #160b38;
+             display: block;
+         }
+
+         .menu__link-active {
+             padding: 12px 20px;
+             border-radius: 15px 15px 0px 15px;
+             background-color: #381c99;
+             color: #f0f9ff;
+         }
+
+         .row {
+             display: flex;
+             
+             align-items: center;
+             margin: 0 auto;
+         }
+         .page{
+            margin:0 289px;
+         }
+
+         .page-content {
+             width: 50%;
+         }
+
+         .page__banner {
+             width: 50%;
+         }
+
+         .page__img {
+             width: 100%;
+         }
+
+
+         .page-content__title {
+             font-size: 70px;
+             color: #160838;
+         }
+
+         .page-content__caption {
+             color: #160838;
+             font-size: 22px;
+             line-height: 35px;
+             margin: 15px 0 25px 0;
+         }
+
+         .page-content__link {
+             max-width: 146px;
+             text-align: center;
+             padding: 12px 20px;
+             border-radius: 15px 15px 0px 15px;
+             background-color: #8054f6;
+             color: #f0f9ff;
+             border-radius: 15px 15px 0px 15px;
+             text-decoration: none;
+             display: block;
+         }
