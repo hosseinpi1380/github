@@ -1,63 +1,170 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir='rtl'>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        @media screen and (min-width: 768px) {
-            
-        }
-        div{
-            padding: 10px;
-        }
-         .container{
-            display: flex;
-        } 
-        .container-1{
-            border: 1px solid black;
-            background-color: lightblue;
-        }
-        .container-2{
-            background-color: lightcoral;
-        }
-        h1,p{
-            padding: 10px;
-            border: 1px solid black;
-        }
-    </style>
+    <title>WEBPROG.IR</title>
+    <link rel="stylesheet" href="/grid-project/style.css">
 </head>
+
 <body>
-    <div class="container">
-        <div class="container-1">
-            <div class="box1">
-                <h1>box-1</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero modi similique optio fugit corporis rerum corrupti eaque aliquam. Quia corrupti quisquam molestiae, voluptates deserunt ratione quidem quas soluta neque consequuntur?</p>
-            </div>
-            <div class="box1">
-               <h1>box-2</h1> 
-               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero modi similique optio fugit corporis rerum corrupti eaque aliquam. Quia corrupti quisquam molestiae, voluptates deserunt ratione quidem quas soluta neque consequuntur?</p>
-            </div>
-            <div class="box1">
-                <h1>box-3</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero modi similique optio fugit corporis rerum corrupti eaque aliquam. Quia corrupti quisquam molestiae, voluptates deserunt ratione quidem quas soluta neque consequuntur?</p>
+    <nav id="main-nav" class="bg-dark">
+        <div class="container">
+            <ul>
+                <li><a href="#" class="active">خانه</a></li>
+                <li><a href="#">درباره ما</a></li>
+            </ul>
+            <h1 class="logo"><span class="text-primary">webprog</span>.ir</h1>
+        </div>
+    </nav>
+    <!-- showCase -->
+    <header id="showcase">
+        <div class="container">
+            <div class="showcase-container">
+                <div class="showcase-content">
+                    <div class="category category-nature">طبیعت</div>
+                    <h1>مقاله زیبای طبیعت</h1>
+                    <p>پیر مردی هر روز تو محله می دید پسر کی با کفش های پاره و پای برهنه با توپ پلاستیکی فوتبال بازی می
+                        کند، روزی رفت ی کتانی
+                        نو خرید و اومد و به پسرک گفت بیا این کفشا رو بپوش…پسرک کفشا رو پوشید و خوشحال رو به پیر مرد کرد
+                        و گفت: شما خدایید؟! پیر
+                        مرد لبش را گزید و گفت نه! پسرک گفت پس دوست خدایی، چون من دیشب فقط به خدا گفتم كه کفش ندارم</p>
+                    <a href="#" class="btn btn-primary">مشاهده بیشتر</a>
+                </div>
             </div>
         </div>
-        <div class="container-2">
-            <div class="box1">
-                <h1>box-1</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero modi similique optio fugit corporis rerum corrupti eaque aliquam. Quia corrupti quisquam molestiae, voluptates deserunt ratione quidem quas soluta neque consequuntur?</p>
-            </div>
-            <div class="box1">
-               <h1>box-2</h1> 
-               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero modi similique optio fugit corporis rerum corrupti eaque aliquam. Quia corrupti quisquam molestiae, voluptates deserunt ratione quidem quas soluta neque consequuntur?</p>
-            </div>
-            <div class="box1">
-                <h1>box-3</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero modi similique optio fugit corporis rerum corrupti eaque aliquam. Quia corrupti quisquam molestiae, voluptates deserunt ratione quidem quas soluta neque consequuntur?</p>
+    </header>
+    <!-- card -->
+    <section id="home-artilcles">
+
+        <div class="container">
+            <h1>مقالات پیشنهادی</h1>
+            <div class="articles-container">
+
+                <article class="card">
+                    <img src="/grid-project/img/animal1.jpg" alt="">
+                    <div>
+                        <div class="category category-animal">حیوانات</div>
+                        <h3>
+                            <a href="#">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</a>
+                        </h3>
+                        <p>
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                            است، چاپگرها و متون بلکه
+                            روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+                            کاربردهای متنوع با هدف بهبود
+                        </p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="/grid-project/img/animal2.jpg" alt="">
+                    <div>
+                        <div class="category category-animal">حیوانات</div>
+                        <h3>
+                            <a href="#">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</a>
+                        </h3>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                            چاپگرها و متون بلکه
+                            روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+                            کاربردهای متنوع با هدف بهبود</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="/grid-project/img/animal1.jpg" alt="">
+                    <div>
+                        <div class="category category-animal">حیوانات</div>
+                        <h3>
+                            <a href="#">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</a>
+                        </h3>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                            چاپگرها و متون بلکه
+                            روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+                            کاربردهای متنوع با هدف بهبود</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="/grid-project/img/nature1.jpg" alt="">
+                    <div>
+                        <div class="category category-nature">طبیعت</div>
+                        <h3>
+                            <a href="#">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</a>
+                        </h3>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                            چاپگرها و متون بلکه
+                            روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+                            کاربردهای متنوع با هدف بهبود</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="/grid-project/img/nature2.jpg" alt="">
+                    <div>
+                        <div class="category category-nature">طبیعت</div>
+                        <h3>
+                            <a href="#">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</a>
+                        </h3>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                            چاپگرها و متون بلکه
+                            روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+                            کاربردهای متنوع با هدف بهبود</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="/grid-project/img/nature3.jpg" alt="">
+                    <div>
+                        <div class="category category-nature">طبیعت</div>
+                        <h3>
+                            <a href="#">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</a>
+                        </h3>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                            چاپگرها و متون بلکه
+                            روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+                            کاربردهای متنوع با هدف بهبود</p>
+                    </div>
+                </article>
+
+
             </div>
         </div>
-    </div>
+    </section>
+    <footer id="main-footer">
+
+        <section id="first">
+          <h2>اشتراک</h2>  
+          <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت جاپ</p> 
+          <input type="text" placeholder="ایمیل شما..." id="email">
+          <button id="esh">اشتراک</button>     
+        </section>
+
+        <section id="second">
+            <h2>لینک های سایت</h2>
+            <ul>
+                <li><a href="#">مقالات</a></li>
+                <li><a href="#">برترین ها</a></li>
+                <li><a href="#">در باره ما</a></li>
+                <li><a href="#">تماس با ما</a></li>
+            </ul>
+        </section>
+        
+        <section id="third">
+            <h2>عضو شوید</h2>
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت جاپ</p>
+            <button>عضویت</button>
+        </section>
+
+        <section id="fourth">
+            <h2><a href="#">webprog.ir</a></h2>
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت جاپ</p>
+        </section>
+
+    </footer>
+    <script src="/script.js"></script>
 </body>
+
 </html>
